@@ -8,16 +8,15 @@ namespace Skymail_PortalCorretor.Model
 {
     public class ApiResponse<T>
     {
-        private bool _success;
-        private T _data;
-        private string _message;
+        public bool success { get; set; }
+        public T data { get; set; }
+        public string message { get; set; }
+    }
 
-        public ApiResponse()
-        {
-        }
-
-        public bool success { get => _success; set => _success = value; }
-        public T data { get => _data; set => _data = value; }
-        public string message { get => _message; set => _message = value; }
+    public class ApiResponseList<T>
+    {
+        public bool success { get; set; }
+        public List<T> data { get; set; }
+        public string message { get; set; }
     }
 }

@@ -69,7 +69,7 @@
     <Compile Include="Dao\Contact.cs" />
     <Compile Include="Skymail\Model\ApiResponse.cs" />
     <Compile Include="Skymail\CallApi.cs" />
-    <Compile Include="Skymail\Model\Email.cs" />
+    <Compile Include="Skymail\Model\Mail.cs" />
     <Compile Include="Skymail\Model\Token.cs" />
     <Compile Include="Skymail\Model\User.cs" />
     <Compile Include="Util\AdoHelper.cs" />
